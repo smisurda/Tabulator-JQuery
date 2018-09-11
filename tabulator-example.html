@@ -1,0 +1,36 @@
+<!--
+	Samantha L. Misurda
+	Tabulator Example
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="./lib/jquery.js"></script>
+    <script type="text/javascript" src="./lib/jquery-ui.js"></script>
+    <link href="./lib/tabulator/dist/css/tabulator.min.css" rel="stylesheet">
+    <link href="./lib/tabulator/dist/css/tabulator_simple.css" rel="stylesheet">
+    <script type="text/javascript" src="./lib/tabulator/dist/js/tabulator.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <link rel="stylesheet" href="tabulator-example.css">
+    <script type="text/javascript" src="tabulator-example.js"></script>
+    <script type="text/javascript" src="data/customers.json"></script>
+
+    <title>Fun with Tabulator</title>
+</head>
+
+<body>
+    <h1>Slightly More Useful Customer Record Application</h1>
+    <div id="search-filter">
+        <input id="search-filter-text" placeholder="Search Records" type="text" />
+    </div>
+    <div id="customer-table"></div>
+    <div id="action-buttons">
+        <button id="add-button" type="button" class="action-button">Add a Customer</button>
+        <button id="delete-button" type="button" class="action-button">Delete a Customer</button>
+    </div>
+</body>
+
+</html>
